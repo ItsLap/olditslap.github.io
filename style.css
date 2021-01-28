@@ -24,23 +24,3 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #1ecfb8;
-    color: white;
-  }
-
-  .unusable {
-    background-color: #333;
-  }
-
-  .unusable:hover {
-    background-color: #333;
-  }
