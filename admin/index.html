@@ -1,0 +1,51 @@
+<html lang="en" onload="hide()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lap, a coder.">
+    <meta name="keywords" content="Lap, Lap studios, HTML, CSS, JavaScript">
+    <meta name="author" content="Lap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Lap Studios</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="../">Lap Studios</a>
+        <a href="../downloads.html">Downloads</a>
+        <a href="../about.html">About</a>
+        <a href="../admin/">Login</a>
+    </div>
+    <div id="admin-content">
+        <input type="button" onclick="loginSuccess()" value="Logout">
+    </div>
+    <div id="main-content">
+        <input type="text" id="name">
+        <input type="password" id="pass">
+        <input type="button" value="Login!" onclick="login()">
+        <script>
+            
+            function loginSuccess() {
+                var x = document.getElementById("admin-content");
+                var z = document.getElementById("main-content");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    z.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                    z.style.display = "block";
+                }
+            } 
+            
+            function login() {
+                var username = document.getElementById("name").value;
+                var password = document.getElementById("pass").value;
+                if (username == "lap" && password == "test") {
+                    loginSuccess()
+                } else {
+                    alert("Wrong Username or Password.")
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>
