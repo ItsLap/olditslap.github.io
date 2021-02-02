@@ -1,0 +1,97 @@
+* {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(23, 23, 23);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+ /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+input {
+    background-color: rgb(19, 19, 19);
+    border: solid rgb(13, 13, 13);
+    border-radius: 5px;
+}
+
+.container {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.head {
+    overflow: hidden;
+    padding: 0%;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(77, 21, 129, 0.712);
+}
+
+.head a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.head a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.head a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.logo {
+    position: relative;
+    bottom: 9px;
+    left: px;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    -moz-border-radius: 100% 100% 100% 100%;
+    -webkit-border-radius: 100% 100% 100% 100%;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 300;
+}
