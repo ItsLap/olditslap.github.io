@@ -37,16 +37,38 @@ input {
 }
 
 .head {
+    overflow: hidden;
     padding: 0%;
     width: 100%;
     height: 50px;
     background-color: rgba(77, 21, 129, 0.712);
 }
 
+.head a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.head a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.head a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
 .logo {
     position: relative;
-    top: 5px;
-    left: 7px;
+    bottom: 9px;
+    left: px;
+}
+.logo {
     width: 40px;
     height: 40px;
 }
