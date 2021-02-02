@@ -26,8 +26,8 @@ body {
 }
 
 input {
-    background-color: rgb(27, 27, 27);
-    border: solid rgb(43, 43, 43);
+    background-color: rgb(19, 19, 19);
+    border: solid rgb(13, 13, 13);
     border-radius: 5px;
 }
 
@@ -77,4 +77,21 @@ input {
     -moz-border-radius: 100% 100% 100% 100%;
     -webkit-border-radius: 100% 100% 100% 100%;
     border-radius: 100% 100% 100% 100%;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 300;
 }
