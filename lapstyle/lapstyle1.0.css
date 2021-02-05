@@ -99,3 +99,8 @@ h3 {
 p {
     font-weight: 200;
 }
+
+code {
+    color: rgb(180, 180, 180);
+    font-family: monospace;
+}
